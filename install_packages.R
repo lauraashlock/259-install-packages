@@ -1,4 +1,4 @@
-#Highlight each line and click "run" or use cmd-SPACE (Mac) or Ctrl+Enter (PC)
+#Highlight each line and click "run" or use cmd-ENTER (Mac) or Ctrl+Enter (PC)
 
 #This will check if you have the correct version of R installed (4.1.1)
 rversion <- R.version
@@ -11,3 +11,5 @@ install.packages(c("tidyverse", "here", "lubridate", "janitor", "visdat"))
 library(tidyverse)
 #If successful, should see a message about "attaching packages"
 #If unsuccessful, will see a message "There is no package called "tidyverse"
+
+#testchange
